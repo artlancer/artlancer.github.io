@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Artlancer - портфолио</title>
+	<meta name="description" content="Портфолио artlancer'а"> 
+	<meta name="keywords" content="сайт-портфолио, портфолио, мои работы, artlancer">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<img src="img/artromani.png" alt="Artlancer логотип">
+		</div>
+		<p class="header__title"><strong>Artlancer</strong></p>
+		<nav class="header__main-navigation">
+			<ul>
+				<li><a href="" class="header__navlink active-nav">Мои работы</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="content">
+		<div class="portfolio">
+			<h1 class="portfolio__title">Мои работы</h1>
+			<p class="portfolio__description">Посмотрите мои выполненные работы</p>
+			
+			<div class="portfolio__filter">
+				<button class="portfolio__filter_item tablink" onclick="showCat(event, 'portfolio__item')">Все</button>
+				<button class="portfolio__filter_item tablink" onclick="showCat(event, 'rip')">Копии</button>
+				<button class="portfolio__filter_item tablink" onclick="showCat(event, 'mark')">Верстка</button>
+				<button class="portfolio__filter_item tablink" onclick="hideAll()">Скрыть всё</button>
+			</div>
+			
+			<div class="portfolio__items">
+
+				
+				<div class="portfolio__item rip ">
+					<a href="http://maiyatnik.ru"><img src="img/maiyatnik_ru.PNG" alt="maiyatnik.ru" class="portfolio__item-img"></a>
+					<h3 class="portfolio__item-title">maiyatnik.ru</h3 class="portfolio__item-title" target="_blanc>
+				</div>
+
+				<div class="portfolio__item mark ">
+					<a href="http://w3css.tk/"><img src="img/w3css_tk.PNG" alt="w3css.tk" class="portfolio__item-img"></a>
+					<h3 class="portfolio__item-title">w3css.tk</h3 class="portfolio__item-title" target="_blanc>
+				</div>
+
+				<div class="portfolio__item rip ">
+					<a href="http://reachagency.ru/"><img src="img/reachagency_ru.PNG" alt="reachagency.ru" class="portfolio__item-img" target="_blanc></a>
+					<h3 class="portfolio__item-title">reachagency.ru</h3 class="portfolio__item-title">
+				</div>
+
+				<div class="portfolio__item mark ">
+					<a href="http://рынок-доменов.рус/"><img src="img/rd_rus.PNG" alt="рынок-доменов.рус" class="portfolio__item-img" target="_blanc></a>
+					<h3 class="portfolio__item-title">рынок-доменов.рус</h3 class="portfolio__item-title">
+				</div>
+
+				<div class="portfolio__item rip ">
+					<a href="http://хеппилайф.рус/go/"><img src="img/hl_rus.PNG" alt="хеппилайф.рус" class="portfolio__item-img" target="_blanc></a>
+					<h3 class="portfolio__item-title">хеппилайф.рус</h3 class="portfolio__item-title">
+				</div>
+
+				<div class="portfolio__item mark ">
+					<a href="https://artlancer.github.io/"><img src="img/artlancer_github_io.PNG" alt="artlancer.github.io" class="portfolio__item-img" target="_blanc></a>
+					<h3 class="portfolio__item-title">artlancer.github.io</h3 class="portfolio__item-title">
+				</div>
+
+
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="footer">
+		
+		<ul>
+			<li><a href="https://kwork.ru/user/artlancer" class="footer__publink footer__publink--kwork" target="_blanc"></a></li>
+			<li><a href="https://vk.com/artromanichev" class="footer__publink footer__publink--vk" target="_blanc"></a></li>
+			<li><a href="https://www.facebook.com/artromanichev " class="footer__publink footer__publink--fb" target="_blanc"></a></li>
+			<li><a href="mailto:artlancer@htmail.ru" class="footer__publink footer__publink--email" target="_blanc"></a></li>
+		</ul>
+		
+		<div class="foter__copyright">
+			<p>Artlancer &copy; 2017-2018</p>
+		</div>
+
+	</footer>
+
+	<!--Scripts-->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
